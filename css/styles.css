@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+img {
+  pointer-events: none;
+}
+
+header #navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 62.5vw;
+
+  margin: 0 auto;
+  padding: 1rem 2rem 0 2rem;
+}
+
+header #navbar .nav-list {
+  display: flex;
+  align-items: center;
+
+  gap: 2vw;
+
+  list-style: none;
+}
+
+header #navbar .nav-list .nav-item a {
+  text-decoration: none;
+  font-size: 1.9vmin;
+
+  color: #0b0a0a;
+}
+header #navbar .nav-list .nav-item a:hover {
+  text-decoration: none;
+  color: #948f8a;
+  transition: color 0.3s ease-out;
+}
+
+main #banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 90.5vw;
+
+  gap: 100px;
+
+  margin: 0 auto;
+  padding: 2rem 0;
+
+  margin-bottom: 94px;
+}
+
+main #banner .text-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main #banner .text-info img {
+  position: relative;
+  z-index: -1;
+  top: 120px;
+  right: 160px;
+}
+
+main #banner .text-info h1 {
+  font-size: 40px;
+}
+
+main #banner .text-info h5 {
+  margin-top: 35px;
+
+  font-size: 24px;
+  font-weight: 400;
+}
+
+main #experionce-banner {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 58.5vw;
+  margin-top: 25px;
+}
+
+main #experience-banner .information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 58.5vw;
+  margin: 0 auto;
+
+  margin-bottom: 32px;
+
+  padding: 1rem 2rem 0 2rem;
+}
+
+main #experience-banner h1 {
+  font-size: 40px;
+}
+
+main #experience-banner h4 {
+  max-width: 500px;
+
+  font-size: 20px;
+  font-weight: 400;
+}
+
+main #experience-banner #experience-information {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+
+  margin-bottom: 55px;
+
+  padding: 1rem 2rem 0 2rem;
+}
+
+main #experience-banner #experience-information .experience-box {
+  max-width: 38.5vw;
+  margin-left: 720px;
+}
+
+main #experience-information img {
+  position: relative;
+  z-index: -1;
+
+  right: 15px;
+  top: 80px;
+}
+
+main #experience-information .date-span {
+  position: relative;
+  z-index: -1;
+
+  right: 61px;
+  top: 60px;
+
+  font-size: 14px;
+}
+
+main #experience-information .experience-description {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-end;
+
+  background-color: #ffe9bd;
+  margin-left: 65px;
+
+  padding: 24px 24px 24px 12px;
+
+  border-radius: 8px;
+}
+
+main #experience-information .experience-description div {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+
+  gap: 12px;
+}
+
+main #experience-information .experience-description h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+main #experience-information .experience-description .tech-title {
+  margin-left: 20px;
+}
+
+main #experience-information .experience-description #tech-list {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+main #experience-information .experience-description #tech-list .techs {
+  font-size: 16px;
+  font-weight: 600;
+
+  border-radius: 4px;
+  background: #f4b972;
+
+  padding: 8px;
+}
+
+main #formation-banner {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #ffe9bd;
+}
+
+main #formation-banner .formation {
+  margin-bottom: 60px;
+}
+
+main #formation-banner .formation-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  max-width: 58.5vw;
+  margin: 0 auto;
+
+  margin-bottom: 60px;
+
+  padding: 1rem 2rem 0 2rem;
+}
+
+main #formation-banner .formation-info h1 {
+  margin-top: 94px;
+  font-size: 40px;
+}
+
+main #formation-banner .formation-info h4 {
+  margin-top: 94px;
+  max-width: 500px;
+
+  font-size: 20px;
+  font-weight: 400;
+}
+
+main .formation-container {
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-end;
+
+  max-width: 58.5vw;
+  margin-left: 360px;
+  margin-bottom: 32px;
+}
+
+main .formation-box {
+  display: flex;
+  flex-direction: row;
+
+  gap: 30px;
+}
+
+main .formation-container .formation-box img {
+  position: relative;
+
+  z-index: 2;
+
+  right: -72px;
+  top: 12px;
+}
+
+main .formation-container .formation-box .date-span {
+  z-index: 3;
+  font-size: 14px;
+  top: 28px;
+  position: relative;
+}
+
+main .formation-box .formation-description {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  border-radius: 8px;
+
+  padding: 12px;
+
+  background-color: #f4b972;
+
+  height: 150px;
+  width: 250px;
+}
+
+main .formation-box .formation-description p {
+  font-size: 12px;
+}
+
+main #formation-banner .formation .complementary-formation {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 38.5vw;
+
+  margin-bottom: 18px;
+  margin-left: 808px;
+
+  padding: 1rem 2rem 0 2rem;
+}
+
+main #formation-banner .formation .complementary-formation h5 {
+  font-weight: 400;
+}
+
+main #formation-banner .formation .complementary-formation p em {
+  font-style: normal;
+  font-weight: 400;
+  color: #948f8a;
+}
+footer #contact {
+  background-color: #784911;
+}
+footer #contact .contact-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  max-width: 58.5vw;
+  margin: 0 auto;
+  gap: 270px;
+  padding: 3rem 2rem;
+}
+
+footer #contact .contact-info h1 {
+  color: #ffd7a8;
+  font-size: 40px;
+}
+
+footer #contact .contact-info .contact-list {
+  list-style: none;
+}
+
+footer #contact .contact-info .contact-list a {
+  font-size: 1.9vmin;
+  text-decoration: none;
+  color: #ffd7a8;
+}
+
+footer #contact .contact-info .contact-list a:hover {
+  color: #f4b972;
+}
